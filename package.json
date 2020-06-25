@@ -1,0 +1,12 @@
+{
+  "name": "randomjsmethods",
+  "version": "1.0.0",
+  "description": "some random javascript methods I am writing during my spare time for practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Adam Hardie",
+  "license": "ISC"
+}
