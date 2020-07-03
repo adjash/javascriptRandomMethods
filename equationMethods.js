@@ -1,11 +1,9 @@
-const multipleEquations = (val1, val2) => {
-    return [val1+val2, val1*val2, val2/val1, val1/val2*100]
+const triangleArea = (len, height) => {
+    return (len*height)/2;
 }
-const [sum, multiply, division, percentage] = multipleEquations(5,6);
 
-console.log(sum)
-console.log(multiply)
-console.log(division)
-console.log(percentage)
+const addAllUpTo = (countTo) => {
+    return (!countTo) ? 0 : countTo + addAllUpTo(countTo-1)
+}
 
-export {sum, multiply, division, percentage};
+export {triangleArea, addAllUpTo}
