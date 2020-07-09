@@ -28,5 +28,13 @@ const canArrayBeNested = (arr1, arr2) => {
         return false;
     }
 }
+const returnPlusOne = (num) => {
+    return num+1;
+}
 
-export {triangleArea, addAllUpTo, matchStickHouses, canArrayBeNested}
+
+function minMax(arr) {
+    arr.sort((a, b) => a-b);
+	return [arr[0], parseFloat(arr.slice(-1))]
+}
+export {triangleArea, addAllUpTo, matchStickHouses, canArrayBeNested, returnPlusOne, minMax}
