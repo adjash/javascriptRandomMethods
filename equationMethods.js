@@ -37,4 +37,11 @@ function minMax(arr) {
     arr.sort((a, b) => a-b);
 	return [arr[0], parseFloat(arr.slice(-1))]
 }
-export {triangleArea, addAllUpTo, matchStickHouses, canArrayBeNested, returnPlusOne, minMax}
+
+function tallestBuildingHeight(arr) {
+    let results = arr.filter(space => space.trim().length > 0);
+    return results.length*20;
+}
+
+
+export {triangleArea, addAllUpTo, matchStickHouses, canArrayBeNested, returnPlusOne, minMax, tallestBuildingHeight}

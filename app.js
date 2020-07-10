@@ -1,6 +1,7 @@
 /* This contains a bunch of methods which I will work on over time just for fun. */
 import {findAndReplace, splitAString, reverseAString, isPalindrome} from './stringMethods.js';
-import { triangleArea, addAllUpTo, matchStickHouses, canArrayBeNested, returnPlusOne, minMax } from './equationMethods.js';
+import { triangleArea, addAllUpTo, matchStickHouses,
+         canArrayBeNested, returnPlusOne, minMax, tallestBuildingHeight } from './equationMethods.js';
 
 
 console.log(findAndReplace("The Quick red fox", "red", "blue"));
@@ -24,3 +25,20 @@ console.log(canArrayBeNested([1, 2, 3, 4], [2, 3]));
 console.log(returnPlusOne(1));
 
 console.log(minMax([-0.473, -0.6834, -0.1287, 0.5632]));
+
+
+console.log(tallestBuildingHeight([
+    "                              ",
+    "                         ###  ",
+    "                         ###  ",
+    "###                    #####  ",
+    "###      #             #####  ",
+    "###     ###            #####  ",
+    "######  ###            #######",
+    "######  ######  ###    #######",
+    "###################    #######",
+    "###############################",
+    "###############################"
+  ]));
+
+  
